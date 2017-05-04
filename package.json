@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "license": "ISC",
+  "name": "drupal-json-generate",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "drupal-json-generate": "bin/drupal-json-generate.js"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node ./bin/drupal-json-generate.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
