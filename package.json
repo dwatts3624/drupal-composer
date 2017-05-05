@@ -13,6 +13,7 @@
   },
   "preferGlobal": "true",
   "dependencies": {
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.8.3"
   }
 }
