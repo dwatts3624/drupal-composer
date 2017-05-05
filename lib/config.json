@@ -1,0 +1,4 @@
+{
+  "defaultDir" : "site",
+  "drupalComposerUrl" : "https://raw.githubusercontent.com/drupal/drupal/{ver}/composer.json"
+}
