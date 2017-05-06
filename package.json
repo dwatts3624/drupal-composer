@@ -5,11 +5,11 @@
   "version": "1.0.0",
   "description": "",
   "bin": {
-    "drupal-json-generate": "bin/drupal-json-generate.js"
+    "drupal-composer-convert": "bin/composer-convert.js"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "start": "node ./bin/drupal-json-generate.js"
+    "start": "node ./bin/composer-convert.js"
   },
   "preferGlobal": "true",
   "dependencies": {
