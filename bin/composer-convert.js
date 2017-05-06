@@ -1,5 +1,4 @@
-const app = require('../lib')
+const path = require('path'),
+      app = require(path.join('../lib'))
 
 app.prompt()
-
-
