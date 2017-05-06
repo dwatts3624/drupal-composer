@@ -1,4 +1,15 @@
 {
-  "defaultDir" : "site",
-  "drupalComposerUrl" : "https://raw.githubusercontent.com/drupal/drupal/{ver}/composer.json"
+  "drupalRoot": "site",
+  "modulePaths": {
+    "base" : "modules",
+    "contrib" : "modules/contrib",
+    "dev" : "modules/dev" 
+  },
+  "codeTemplates" : {
+    "drupalDefaultComposer" : "https://raw.githubusercontent.com/drupal/drupal/{ver}/composer.json",
+    "drupalComposer" : "https://raw.githubusercontent.com/drupal-composer/drupal-project/8.x/composer.json",
+    "drupalComposerIgnore" : "https://raw.githubusercontent.com/drupal-composer/drupal-project/8.x/.gitignore",
+    "drupalComposerDrush" : "https://raw.githubusercontent.com/drupal-composer/drupal-project/8.x/drush/policy.drush.inc",
+    "drupalComposerScriptHandler" : "https://raw.githubusercontent.com/drupal-composer/drupal-project/8.x/scripts/composer/ScriptHandler.php"
+  }
 }

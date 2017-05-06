@@ -13,10 +13,11 @@
   },
   "preferGlobal": "true",
   "dependencies": {
+    "console": "^0.5.2",
     "fs": "0.0.1-security",
     "inquirer": "^3.0.6",
     "js-yaml": "^3.8.3",
     "lodash": "^4.17.4",
-    "request": "^2.81.0"
+    "request-promise": "^4.2.0"
   }
 }
