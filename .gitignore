@@ -2,5 +2,8 @@
 node_modules
 
 # For testing
-modules
+web
 site
+composer.json
+drush
+scripts
