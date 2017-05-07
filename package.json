@@ -20,5 +20,14 @@
     "lodash": "^4.17.4",
     "request": "^2.81.0",
     "request-promise": "^4.2.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwatts3624/drupal-composer-convert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwatts3624/drupal-composer-convert/issues"
+  },
+  "homepage": "https://github.com/dwatts3624/drupal-composer-convert#readme"
 }
