@@ -1,5 +1,5 @@
 {
-  "drupalRoot": "site",
+  "drupalRoot": "app",
   "modulePaths": {
     "base" : "modules",
     "contrib" : "modules/contrib",
