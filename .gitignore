@@ -2,6 +2,8 @@
 node_modules
 
 # For testing
+composer.lock
+vendor
 web
 site
 composer.json

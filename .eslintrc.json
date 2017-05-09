@@ -1,0 +1,41 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console":0,
+        "no-unused-vars": [
+            "error",
+            { 
+                "vars": "all", 
+                "args": "after-used", 
+                "ignoreRestSiblings": false,
+                "varsIgnorePattern": "colors"
+            }
+        ],
+        "indent": [
+            "warn",
+            2,
+            { 
+                "VariableDeclarator": {"var": 2, "let": 2, "const": 3} 
+            }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error", 
+            "single", 
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": true
+            }
+        ]
+    }
+}
