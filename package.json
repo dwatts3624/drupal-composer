@@ -5,11 +5,11 @@
   "version": "1.0.0",
   "description": "Converts a Drupal project that hasn't used composer to manage modules from the start to use the drupal-composer project's composer file",
   "bin": {
-    "drupal-composer-convert": "bin/composer-convert.js"
+    "drupal-composer": "bin/drupal-composer.js"
   },
   "main": "./lib/index.js",
   "scripts": {
-    "start": "node ./bin/composer-convert.js"
+    "start": "node ./bin/drupal-composer.js"
   },
   "preferGlobal": "true",
   "dependencies": {
