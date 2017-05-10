@@ -1,7 +1,7 @@
 {
   "author": "Danny Watts",
   "license": "ISC",
-  "name": "drupal-composer-convert",
+  "name": "drupal-composer",
   "version": "1.0.0",
   "description": "Converts a Drupal project that hasn't used composer to manage modules from the start to use the drupal-composer project's composer file",
   "bin": {
@@ -24,10 +24,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dwatts3624/drupal-composer-convert.git"
+    "url": "git+https://github.com/dwatts3624/drupal-composer.git"
   },
   "bugs": {
-    "url": "https://github.com/dwatts3624/drupal-composer-convert/issues"
+    "url": "https://github.com/dwatts3624/drupal-composer/issues"
   },
-  "homepage": "https://github.com/dwatts3624/drupal-composer-convert#readme"
+  "homepage": "https://github.com/dwatts3624/drupal-composer#readme"
 }
