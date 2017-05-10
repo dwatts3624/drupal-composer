@@ -2,7 +2,7 @@
   "author": "Danny Watts",
   "license": "ISC",
   "name": "drupal-composer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts a Drupal project that hasn't used composer to manage modules from the start to use the drupal-composer project's composer file",
   "bin": {
     "drupal-composer": "bin/drupal-composer.js"
